@@ -70,5 +70,11 @@
         {
             return a + b;
         }
+
+        static double Divide(int number, int divider)
+        {
+            int quota = number / divider;
+            return quota;
+        }
     }
 }
