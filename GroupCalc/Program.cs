@@ -6,5 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
         }
+
+        static int Multiplicate(int firstNum, int secondNum)
+        {
+            int product = firstNum * secondNum;
+            return product;
+        }
     }
 }
