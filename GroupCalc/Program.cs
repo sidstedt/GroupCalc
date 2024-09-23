@@ -48,6 +48,12 @@
             int sum = a - b;
             return sum;
         }
+      
+        public static int Subtraction(int a, int b)
+        {
+            int sum = a - b;
+            return sum;
+        }
 
         static int Multiplicate(int firstNum, int secondNum)
         {
@@ -59,7 +65,6 @@
         {
             return a + b;
         }
-
 
         public static double Addition(double a, double b)
         {
