@@ -25,13 +25,16 @@
                 switch (svar)
                 {
                     case 1:
+                        Console.WriteLine("Svaret är " + Addition(a,b));
                         break;
                     case 2:
-
+                        Console.WriteLine("Svaret är " + Subtraction(a,b));
                         break;
                     case 3:
+                        Console.WriteLine("Svaret är " + Multiplicate(a,b));
                         break;
                     case 4:
+                        Console.WriteLine("Svaret är " + Divide(a,b));
                         break;
                     case 5:
                         play = false;
