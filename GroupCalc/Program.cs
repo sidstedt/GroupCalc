@@ -22,7 +22,8 @@
                     "5: Beräkna arean av en fyrkant \n" +
                     "6: Beräkna arean av en triangel \n" +
                     "7: Beräkna arean av en cirkel \n" +
-                    "8: Avsluta");
+                    "8: Upphöjt till \n" +
+                    "9: Avsluta");
                 int svar = Convert.ToInt32(Console.ReadLine());
 
                 switch (svar)
@@ -49,6 +50,9 @@
                         Console.WriteLine("Svaret är " + CircleArea(a));
                         break;
                     case 8:
+                        Console.WriteLine("Svaret är " + PowerOf(a, b));
+                        break;
+                    case 9:
                         play = false;
                         break;
                     default:
