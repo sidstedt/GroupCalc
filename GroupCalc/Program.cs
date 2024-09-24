@@ -84,5 +84,10 @@
         {
             return (height * width) / 2;
         }
+
+        static double CircleArea(int radius)
+        {
+            return Math.PI * (double)(radius ^ 2);
+        }
     }
 }
