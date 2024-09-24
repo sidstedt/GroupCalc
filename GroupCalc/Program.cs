@@ -74,5 +74,10 @@
             int quota = number / divider;
             return quota;
         }
+
+        static int SquareArea(int length, int width)
+        {
+            return length * width;
+        }
     }
 }
