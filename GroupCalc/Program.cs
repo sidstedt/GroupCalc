@@ -99,7 +99,8 @@
 
         static double CircleArea(int radius)
         {
-            return Math.PI * (double)(radius ^ 2);
+            double area = Math.PI * (double)(radius ^ 2);
+            return Math.Round(area, 2);
         }
     }
 }
