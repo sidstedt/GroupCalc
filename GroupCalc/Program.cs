@@ -79,5 +79,10 @@
         {
             return length * width;
         }
+
+        static int TriangelArea(int height, int width)
+        {
+            return (height * width) / 2;
+        }
     }
 }
