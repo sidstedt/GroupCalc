@@ -25,16 +25,16 @@
                 switch (svar)
                 {
                     case 1:
-
+                        Console.WriteLine("Svaret är " + Addition(a,b));
                         break;
                     case 2:
-
+                        Console.WriteLine("Svaret är " + Subtraction(a,b));
                         break;
                     case 3:
-
+                        Console.WriteLine("Svaret är " + Multiplicate(a,b));
                         break;
                     case 4:
-
+                        Console.WriteLine("Svaret är " + Divide(a,b));
                         break;
                     case 5:
                         play = false;
@@ -46,10 +46,33 @@
                 }
             }
         }
+      
         public static int Subtraction(int a, int b)
         {
             int sum = a - b;
             return sum;
+        }
+
+        static int Multiplicate(int firstNum, int secondNum)
+        {
+            int product = firstNum * secondNum;
+            return product;
+        }
+
+        public static int Addition(int a, int b)
+        {
+            return a + b;
+        }
+
+        public static double Addition(double a, double b)
+        {
+            return a + b;
+        }
+
+        static double Divide(int number, int divider)
+        {
+            int quota = number / divider;
+            return quota;
         }
     }
 }
