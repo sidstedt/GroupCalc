@@ -74,7 +74,6 @@
             int quota = number / divider;
             return quota;
         }
-        // OBS! AI-GENERATED OBS! //
         static int SelectNumber()
         {
             char[,] numpad = new char[,]
