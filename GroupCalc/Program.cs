@@ -19,7 +19,10 @@
                     "2: Subtratktion \n" +
                     "3: Multiplikation \n" +
                     "4: Division \n" +
-                    "5: Avsluta");
+                    "5: Beräkna arean av en fyrkant \n" +
+                    "6: Beräkna arean av en triangel \n" +
+                    "7: Beräkna arean av en cirkel \n" +
+                    "8: Avsluta");
                 int svar = Convert.ToInt32(Console.ReadLine());
 
                 switch (svar)
@@ -37,6 +40,15 @@
                         Console.WriteLine("Svaret är " + Divide(a,b));
                         break;
                     case 5:
+                        Console.WriteLine("Svaret är " + SquareArea(a, b));
+                        break;
+                    case 6:
+                        Console.WriteLine("Svaret är " + TriangelArea(a, b));
+                        break;
+                    case 7:
+                        Console.WriteLine("Svaret är " + CircleArea(a));
+                        break;
+                    case 8:
                         play = false;
                         break;
                     default:
